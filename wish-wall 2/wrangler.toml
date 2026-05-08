@@ -7,7 +7,7 @@ pages_build_output_dir = "./dist"
 [[kv_namespaces]]
 binding = "WISHES"
 id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
-# preview_id = "REPLACE_WITH_YOUR_PREVIEW_KV_NAMESPACE_ID"
+# preview_id = "ef8070e00daf48ea8b5993fe4cfdf6bc"
 
 # Optional: rate limit env var
 # [vars]
