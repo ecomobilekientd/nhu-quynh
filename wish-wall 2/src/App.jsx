@@ -23,7 +23,11 @@ export default function App() {
   const [justAddedKey, setJustAddedKey] = useState(null);
   const [errorMsg, setErrorMsg] = useState('');
 
-  useEffect(() => { loadWishes(); }, []);
+ useEffect(() => {
+  loadWishes();
+  const interval = setInterval(loadWishes, 5000);
+  return () => clearInterval(interval);
+}, []);
 
   const loadWishes = async () => {
     try {
