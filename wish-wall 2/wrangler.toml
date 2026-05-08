@@ -6,7 +6,7 @@ pages_build_output_dir = "./dist"
 # from Cloudflare dashboard, OR bind it via Pages dashboard (recommended).
 [[kv_namespaces]]
 binding = "WISHES"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+id = "ef8070e00daf48ea8b5993fe4cfdf6bc"
 # preview_id = "ef8070e00daf48ea8b5993fe4cfdf6bc"
 
 # Optional: rate limit env var
