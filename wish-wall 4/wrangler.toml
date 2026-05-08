@@ -1,0 +1,14 @@
+name = "wish-wall"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "./dist"
+
+# KV binding for production. Replace `id` with your real KV namespace ID
+# from Cloudflare dashboard, OR bind it via Pages dashboard (recommended).
+[[kv_namespaces]]
+binding = "WISHES"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+# preview_id = "REPLACE_WITH_YOUR_PREVIEW_KV_NAMESPACE_ID"
+
+# Optional: rate limit env var
+# [vars]
+# RATE_LIMIT_PER_HOUR = "20"
