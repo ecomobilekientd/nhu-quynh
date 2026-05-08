@@ -25,7 +25,7 @@ export default function App() {
 
  useEffect(() => {
   loadWishes();
-  const interval = setInterval(loadWishes, 5000);
+  const interval = setInterval(loadWishes, 3000);
   return () => clearInterval(interval);
 }, []);
 
